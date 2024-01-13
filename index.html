@@ -1,590 +1,656 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="menu">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="102"
+              height="38"
+              viewBox="0 0 102 38"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_4_13)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M57.5929 25.0816C59.0075 25.0816 60.136 25.4396 60.9793 26.156C61.8222 26.8725 62.2866 27.8388 62.3726 29.0544H59.5002C59.4575 28.5764 59.261 28.1968 58.9113 27.915C58.5607 27.6323 58.0926 27.4916 57.5074 27.4916C56.9641 27.4916 56.5461 27.5923 56.253 27.7955C55.9605 27.9978 55.8137 28.2805 55.8137 28.6418C55.8137 29.0473 56.0143 29.355 56.4137 29.5653C56.8141 29.7746 57.4359 29.9882 58.2793 30.2056C59.1366 30.422 59.8439 30.6473 60.4011 30.8788C60.9584 31.1102 61.4396 31.4678 61.8468 31.9528C62.2541 32.4378 62.465 33.0785 62.4794 33.8745C62.4794 34.5689 62.2899 35.1917 61.9114 35.7422C61.5329 36.2916 60.9896 36.7226 60.2823 37.0335C59.575 37.3445 58.7502 37.4997 57.8074 37.4997C56.8349 37.4997 55.9637 37.3224 55.1928 36.9681C54.421 36.6139 53.8098 36.1326 53.3598 35.5248C52.9098 34.917 52.6636 34.2438 52.62 33.5052H55.6428C55.6995 33.9691 55.9247 34.3525 56.3176 34.6564C56.71 34.9603 57.1995 35.1122 57.7856 35.1122C58.3568 35.1122 58.804 34.9965 59.1249 34.7651C59.4468 34.5336 59.6075 34.2368 59.6075 33.8745C59.6075 33.4841 59.411 33.1905 59.0177 32.9953C58.6252 32.7991 58.0001 32.5865 57.1428 32.355C56.2568 32.1377 55.5318 31.9133 54.968 31.6818C54.4028 31.4503 53.9171 31.0952 53.5098 30.6181C53.1025 30.1402 52.8991 29.4961 52.8991 28.6851C52.8991 28.0199 53.0886 27.4121 53.4671 26.8617C53.8455 26.3113 54.3889 25.8775 55.0962 25.5586C55.8035 25.2406 56.6353 25.0816 57.5929 25.0816ZM75.3389 25.0818C76.2241 25.0818 76.9996 25.263 77.6642 25.6242C78.3288 25.9865 78.8605 26.4423 79.2608 26.9918V25.2771H82.2828V37.3048H79.2608V35.5458C78.8754 36.1103 78.3427 36.5775 77.6642 36.9458C76.9857 37.3151 76.2032 37.5 75.3171 37.5C74.3167 37.5 73.4065 37.2394 72.585 36.7181C71.7625 36.1978 71.1128 35.463 70.634 34.5151C70.1552 33.5671 69.9165 32.4776 69.9165 31.2469C69.9165 30.0313 70.1552 28.9535 70.634 28.0122C71.1128 27.0723 71.7625 26.3487 72.585 25.8416C73.4065 25.3354 74.3237 25.0818 75.3389 25.0818ZM96.1489 25.0816C97.2774 25.0816 98.2894 25.3272 99.182 25.8192C100.074 26.3113 100.767 27.0104 101.261 27.915C101.754 28.8197 102 29.8575 102 31.0308C102 31.4645 101.971 31.855 101.915 32.2031H93.2343C93.3058 33.0715 93.6058 33.7518 94.1343 34.2439C94.6628 34.7359 95.3134 34.9815 96.0844 34.9815C97.1989 34.9815 97.9926 34.4974 98.4635 33.5274H101.7C101.357 34.6856 100.7 35.6368 99.7281 36.3825C98.7566 37.1281 97.5635 37.4998 96.1489 37.4998C95.0055 37.4998 93.981 37.2429 93.0731 36.7297C92.1661 36.2155 91.4588 35.4886 90.9512 34.5478C90.4446 33.6069 90.191 32.5211 90.191 31.2904C90.191 30.0466 90.4404 28.9538 90.941 28.012C91.4407 27.072 92.1411 26.3485 93.0415 25.8414C93.9416 25.3352 94.9777 25.0816 96.1489 25.0816ZM51.8271 22.1284V24.6038H46.1474V28.4036H51.1849V30.8131H46.1474V34.8293H51.8271V37.3047H43.1473V22.1284H51.8271ZM67.1518 22.3023V25.2769H69.8092V27.7735H67.1518V33.5924C67.1518 33.9974 67.248 34.2905 67.4407 34.4716C67.6339 34.6528 67.9585 34.7426 68.4164 34.7426H69.8092V37.3046H67.9228C65.3936 37.3046 64.129 36.0598 64.129 33.5708V27.7735H62.7144V25.2769H64.129V22.3023H67.1518ZM87.4272 22.3023V25.2769H90.0845V27.7735H87.4272V33.5924C87.4272 33.9974 87.5233 34.2905 87.716 34.4716C87.9092 34.6528 88.2338 34.7426 88.6917 34.7426H90.0845V37.3046H88.1981C85.6689 37.3046 84.4043 36.0598 84.4043 33.5708V27.7735H82.9897V25.2769H84.4043V22.3023H87.4272ZM76.1098 27.7525C75.5525 27.7525 75.0389 27.8894 74.5671 28.1651C74.0952 28.4398 73.7135 28.8416 73.4204 29.3689C73.1274 29.8982 72.9811 30.5234 72.9811 31.2469C72.9811 31.9714 73.1274 32.6041 73.4204 33.1475C73.7135 33.6899 74.0989 34.1058 74.5777 34.3956C75.0566 34.6854 75.5674 34.8293 76.1098 34.8293C76.6671 34.8293 77.1887 34.6891 77.6754 34.4064C78.1602 34.1246 78.5466 33.7191 78.8327 33.1908C79.1178 32.6625 79.2608 32.0288 79.2608 31.2902C79.2608 30.5526 79.1178 29.9194 78.8327 29.3911C78.5466 28.8627 78.1602 28.4572 77.6754 28.1754C77.1887 27.8927 76.6671 27.7525 76.1098 27.7525ZM96.0635 27.5782C95.3204 27.5782 94.6953 27.8064 94.1877 28.2622C93.681 28.7181 93.3699 29.3513 93.2556 30.1614H98.8926C98.8778 29.3805 98.5996 28.7543 98.0562 28.2843C97.5138 27.8134 96.8492 27.5782 96.0635 27.5782Z"
+                  fill="#45525B"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M20.8587 0.5L35.9353 15.8071V37.3048H32.4369V17.273L18.3825 3.00838L20.8587 0.5ZM10.968 10.5331L21.9354 21.6712V37.3049H0V21.6712L10.968 10.5331ZM15.9132 5.51652L28.939 18.7391V37.3045H25.4406V20.205L13.4439 8.0249L15.9132 5.51652Z"
+                  fill="#FF8A63"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_4_13">
+                  <rect
+                    width="102"
+                    height="37"
+                    fill="white"
+                    transform="translate(0 0.5)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Listings</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Newsroom</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contact</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Our team</a>
+            </li>
+          </ul>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-</head>
+          <div id="menu" class="modal-open modal-bg">
+            <ul class="menu__list-burger">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Listings</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Newsroom</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Contact</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Our team</a>
+              </li>
+            </ul>
+          </div>
 
-<body>
-
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="102" height="38" viewBox="0 0 102 38" fill="none">
-                    <g clip-path="url(#clip0_4_13)">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M57.5929 25.0816C59.0075 25.0816 60.136 25.4396 60.9793 26.156C61.8222 26.8725 62.2866 27.8388 62.3726 29.0544H59.5002C59.4575 28.5764 59.261 28.1968 58.9113 27.915C58.5607 27.6323 58.0926 27.4916 57.5074 27.4916C56.9641 27.4916 56.5461 27.5923 56.253 27.7955C55.9605 27.9978 55.8137 28.2805 55.8137 28.6418C55.8137 29.0473 56.0143 29.355 56.4137 29.5653C56.8141 29.7746 57.4359 29.9882 58.2793 30.2056C59.1366 30.422 59.8439 30.6473 60.4011 30.8788C60.9584 31.1102 61.4396 31.4678 61.8468 31.9528C62.2541 32.4378 62.465 33.0785 62.4794 33.8745C62.4794 34.5689 62.2899 35.1917 61.9114 35.7422C61.5329 36.2916 60.9896 36.7226 60.2823 37.0335C59.575 37.3445 58.7502 37.4997 57.8074 37.4997C56.8349 37.4997 55.9637 37.3224 55.1928 36.9681C54.421 36.6139 53.8098 36.1326 53.3598 35.5248C52.9098 34.917 52.6636 34.2438 52.62 33.5052H55.6428C55.6995 33.9691 55.9247 34.3525 56.3176 34.6564C56.71 34.9603 57.1995 35.1122 57.7856 35.1122C58.3568 35.1122 58.804 34.9965 59.1249 34.7651C59.4468 34.5336 59.6075 34.2368 59.6075 33.8745C59.6075 33.4841 59.411 33.1905 59.0177 32.9953C58.6252 32.7991 58.0001 32.5865 57.1428 32.355C56.2568 32.1377 55.5318 31.9133 54.968 31.6818C54.4028 31.4503 53.9171 31.0952 53.5098 30.6181C53.1025 30.1402 52.8991 29.4961 52.8991 28.6851C52.8991 28.0199 53.0886 27.4121 53.4671 26.8617C53.8455 26.3113 54.3889 25.8775 55.0962 25.5586C55.8035 25.2406 56.6353 25.0816 57.5929 25.0816ZM75.3389 25.0818C76.2241 25.0818 76.9996 25.263 77.6642 25.6242C78.3288 25.9865 78.8605 26.4423 79.2608 26.9918V25.2771H82.2828V37.3048H79.2608V35.5458C78.8754 36.1103 78.3427 36.5775 77.6642 36.9458C76.9857 37.3151 76.2032 37.5 75.3171 37.5C74.3167 37.5 73.4065 37.2394 72.585 36.7181C71.7625 36.1978 71.1128 35.463 70.634 34.5151C70.1552 33.5671 69.9165 32.4776 69.9165 31.2469C69.9165 30.0313 70.1552 28.9535 70.634 28.0122C71.1128 27.0723 71.7625 26.3487 72.585 25.8416C73.4065 25.3354 74.3237 25.0818 75.3389 25.0818ZM96.1489 25.0816C97.2774 25.0816 98.2894 25.3272 99.182 25.8192C100.074 26.3113 100.767 27.0104 101.261 27.915C101.754 28.8197 102 29.8575 102 31.0308C102 31.4645 101.971 31.855 101.915 32.2031H93.2343C93.3058 33.0715 93.6058 33.7518 94.1343 34.2439C94.6628 34.7359 95.3134 34.9815 96.0844 34.9815C97.1989 34.9815 97.9926 34.4974 98.4635 33.5274H101.7C101.357 34.6856 100.7 35.6368 99.7281 36.3825C98.7566 37.1281 97.5635 37.4998 96.1489 37.4998C95.0055 37.4998 93.981 37.2429 93.0731 36.7297C92.1661 36.2155 91.4588 35.4886 90.9512 34.5478C90.4446 33.6069 90.191 32.5211 90.191 31.2904C90.191 30.0466 90.4404 28.9538 90.941 28.012C91.4407 27.072 92.1411 26.3485 93.0415 25.8414C93.9416 25.3352 94.9777 25.0816 96.1489 25.0816ZM51.8271 22.1284V24.6038H46.1474V28.4036H51.1849V30.8131H46.1474V34.8293H51.8271V37.3047H43.1473V22.1284H51.8271ZM67.1518 22.3023V25.2769H69.8092V27.7735H67.1518V33.5924C67.1518 33.9974 67.248 34.2905 67.4407 34.4716C67.6339 34.6528 67.9585 34.7426 68.4164 34.7426H69.8092V37.3046H67.9228C65.3936 37.3046 64.129 36.0598 64.129 33.5708V27.7735H62.7144V25.2769H64.129V22.3023H67.1518ZM87.4272 22.3023V25.2769H90.0845V27.7735H87.4272V33.5924C87.4272 33.9974 87.5233 34.2905 87.716 34.4716C87.9092 34.6528 88.2338 34.7426 88.6917 34.7426H90.0845V37.3046H88.1981C85.6689 37.3046 84.4043 36.0598 84.4043 33.5708V27.7735H82.9897V25.2769H84.4043V22.3023H87.4272ZM76.1098 27.7525C75.5525 27.7525 75.0389 27.8894 74.5671 28.1651C74.0952 28.4398 73.7135 28.8416 73.4204 29.3689C73.1274 29.8982 72.9811 30.5234 72.9811 31.2469C72.9811 31.9714 73.1274 32.6041 73.4204 33.1475C73.7135 33.6899 74.0989 34.1058 74.5777 34.3956C75.0566 34.6854 75.5674 34.8293 76.1098 34.8293C76.6671 34.8293 77.1887 34.6891 77.6754 34.4064C78.1602 34.1246 78.5466 33.7191 78.8327 33.1908C79.1178 32.6625 79.2608 32.0288 79.2608 31.2902C79.2608 30.5526 79.1178 29.9194 78.8327 29.3911C78.5466 28.8627 78.1602 28.4572 77.6754 28.1754C77.1887 27.8927 76.6671 27.7525 76.1098 27.7525ZM96.0635 27.5782C95.3204 27.5782 94.6953 27.8064 94.1877 28.2622C93.681 28.7181 93.3699 29.3513 93.2556 30.1614H98.8926C98.8778 29.3805 98.5996 28.7543 98.0562 28.2843C97.5138 27.8134 96.8492 27.5782 96.0635 27.5782Z"
-                            fill="#45525B" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M20.8587 0.5L35.9353 15.8071V37.3048H32.4369V17.273L18.3825 3.00838L20.8587 0.5ZM10.968 10.5331L21.9354 21.6712V37.3049H0V21.6712L10.968 10.5331ZM15.9132 5.51652L28.939 18.7391V37.3045H25.4406V20.205L13.4439 8.0249L15.9132 5.51652Z"
-                            fill="#FF8A63" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_4_13">
-                            <rect width="102" height="37" fill="white" transform="translate(0 0.5)" />
-                        </clipPath>
-                    </defs>
-                </svg>
-            </div>
-            <nav class="nav">
-                <a href="#" class="nav__name">Listings</a>
-                <a href="#" class="nav__name">Newsroom</a>
-                <a href="#" class="nav__name">Contact</a>
-                <a href="#" class="nav__name">Our team</a>
-
-            </nav>
-        </div>
+          <button id="burger_btn" class="menu__burger-btn">
+            <img src="./img/Burger (1).svg" alt="" />
+          </button>
+        </nav>
+      </div>
     </header>
+
     <main>
-        <section class="hero">
-                <div class="hero__logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="103" viewBox="0 0 128 103" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M31.4178 75.2625C34.4941 75.2625 36.9486 76.0331 38.7829 77.5759C40.6172 79.118 41.6257 81.1994 41.814 83.8159H35.5656C35.4732 82.7874 35.0463 81.9694 34.2857 81.3624C33.5229 80.7541 32.5044 80.4517 31.2316 80.4517C30.0498 80.4517 29.1416 80.6686 28.5042 81.106C27.8667 81.5413 27.5487 82.1504 27.5487 82.9282C27.5487 83.8009 27.9849 84.4631 28.853 84.9156C29.7239 85.3666 31.0762 85.827 32.9105 86.2946C34.7748 86.7607 36.3133 87.2455 37.5252 87.744C38.7371 88.2424 39.7842 89.0124 40.6702 90.0567C41.5555 91.101 42.0146 92.48 42.0454 94.1938C42.0454 95.6884 41.6335 97.0294 40.8106 98.2145C39.9869 99.3974 38.8058 100.326 37.2674 100.995C35.7289 101.665 33.9347 102 31.8841 102C29.7698 102 27.8746 101.617 26.1979 100.855C24.519 100.092 23.1897 99.0555 22.2106 97.7469C21.2322 96.4383 20.6972 94.9889 20.6027 93.3987H27.1763C27.3002 94.397 27.7894 95.223 28.6446 95.8773C29.4983 96.5316 30.5627 96.8584 31.8368 96.8584C33.0795 96.8584 34.0522 96.6092 34.7505 96.1107C35.4503 95.613 35.7991 94.9738 35.7991 94.1938C35.7991 93.3527 35.3722 92.7214 34.517 92.3012C33.6632 91.8789 32.3038 91.4206 30.4387 90.9222C28.5121 90.4546 26.9356 89.9712 25.7087 89.4728C24.4796 88.9743 23.4232 88.2101 22.5372 87.183C21.6512 86.1538 21.2093 84.7676 21.2093 83.0209C21.2093 81.5887 21.6211 80.2801 22.4441 79.0957C23.2678 77.9106 24.4488 76.9769 25.9873 76.2903C27.5258 75.6051 29.335 75.2625 31.4178 75.2625ZM70.0143 75.2627C71.9395 75.2627 73.6255 75.6528 75.0709 76.4306C76.5163 77.2106 77.6737 78.1917 78.5439 79.3747V75.6829H85.1161V101.58H78.5439V97.7924C77.7059 99.0077 76.5471 100.014 75.0709 100.807C73.5954 101.602 71.8944 102 69.967 102C67.7918 102 65.8114 101.439 64.0244 100.316C62.2359 99.1959 60.8228 97.6136 59.7814 95.5731C58.74 93.5318 58.2207 91.1868 58.2207 88.5372C58.2207 85.92 58.74 83.5993 59.7814 81.5717C60.8228 79.5478 62.2359 77.9906 64.0244 76.8989C65.8114 75.8086 67.8068 75.2627 70.0143 75.2627ZM115.275 75.2629C117.729 75.2629 119.929 75.7915 121.871 76.8509C123.811 77.9103 125.32 79.415 126.393 81.3629C127.465 83.31 128 85.5452 128 88.0712C128 89.0049 127.937 89.846 127.814 90.5951H108.935C109.091 92.4647 109.744 93.9292 110.893 94.9886C112.042 96.048 113.458 96.5773 115.134 96.5773C117.558 96.5773 119.284 95.5344 120.308 93.4465H127.348C126.602 95.9395 125.172 97.9886 123.059 99.5939C120.946 101.199 118.351 102 115.275 102C112.788 102 110.559 101.446 108.585 100.341C106.612 99.2341 105.074 97.669 103.97 95.6429C102.868 93.6175 102.316 91.2796 102.316 88.63C102.316 85.9524 102.859 83.5995 103.947 81.5719C105.034 79.5479 106.557 77.99 108.516 76.8983C110.474 75.8087 112.727 75.2629 115.275 75.2629ZM18.8786 68.9045V74.2338H6.52493V82.4145H17.4805V87.6031H6.52493V96.2499H18.8786V101.579H0V68.9045H18.8786ZM52.2079 69.2793V75.6831H57.9872V81.0583H52.2079V93.5873C52.2079 94.4585 52.4163 95.0898 52.836 95.4798C53.2564 95.8698 53.9626 96.0638 54.9582 96.0638H57.9872V101.579H53.8846C48.3839 101.579 45.6335 98.8994 45.6335 93.5392V81.0583H42.5573V75.6831H45.6335V69.2793H52.2079ZM96.3052 69.2793V75.6831H102.085V81.0583H96.3052V93.5873C96.3052 94.4585 96.5136 95.0898 96.9333 95.4798C97.3538 95.8698 98.06 96.0638 99.0555 96.0638H102.085V101.579H97.9819C92.4812 101.579 89.7308 98.8994 89.7308 93.5392V81.0583H86.6546V75.6831H89.7308V69.2793H96.3052ZM71.691 81.013C70.4791 81.013 69.3618 81.3074 68.3361 81.9007C67.3097 82.4925 66.4789 83.358 65.8414 84.4935C65.204 85.6327 64.886 86.9794 64.886 88.5372C64.886 90.0965 65.204 91.4583 65.8414 92.6283C66.4789 93.7962 67.3176 94.6918 68.3583 95.3159C69.3997 95.9401 70.5113 96.2496 71.691 96.2496C72.9036 96.2496 74.0374 95.9473 75.096 95.3389C76.1503 94.732 76.9904 93.8594 77.6128 92.7217C78.2331 91.584 78.5439 90.2208 78.5439 88.6306C78.5439 87.0418 78.2331 85.6786 77.6128 84.5409C76.9904 83.4033 76.1503 82.5306 75.096 81.9237C74.0374 81.3153 72.9036 81.013 71.691 81.013ZM115.088 80.6382C113.473 80.6382 112.112 81.1287 111.009 82.1098C109.906 83.0917 109.23 84.4556 108.981 86.1995H121.242C121.209 84.5181 120.604 83.1692 119.422 82.158C118.243 81.1438 116.797 80.6382 115.088 80.6382Z"
-                            fill="#45525B" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M68.4587 0L91.7107 23.37V56.1913H86.3152V25.608L64.6397 3.82964L68.4587 0ZM53.2046 15.318L70.1193 32.323V56.1915H36.2892V32.323L53.2046 15.318ZM60.8315 7.65893L80.9205 27.8464V56.191H75.5251V30.0845L57.0233 11.4886L60.8315 7.65893Z"
-                            fill="#FF8A63" />
-                    </svg>
-                    <h2 class="hero__title">We're here to help you find <br />
-                        a new home.</h2>
-                        <div class="hero__mom">
-                            <a href="" class="hero__link">
-                                <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path id="Arrow 3"
-                                        d="M10.9393 21.0607C11.5251 21.6464 12.4749 21.6464 13.0607 21.0607L22.6066 11.5147C23.1924 10.9289 23.1924 9.97919 22.6066 9.3934C22.0208 8.80761 21.0711 8.80761 20.4853 9.3934L12 17.8787L3.51472 9.3934C2.92893 8.80761 1.97918 8.80761 1.3934 9.3934C0.807611 9.97918 0.807611 10.9289 1.3934 11.5147L10.9393 21.0607ZM10.5 -6.55671e-08L10.5 20L13.5 20L13.5 6.55671e-08L10.5 -6.55671e-08Z"
-                                        fill="#3A4443" />
-                                </svg>
-                            </a>
-                        </div>
-                </div>
-                
-        </section>
-
-        <section class="bro">
-
-            <div class="container">
-                            <div class="bro__inner">
-                                <h3 class="bro__suptitle">Our requirements</h3>
-                                <h2 class="bro__title">How we choose our listings.</h2>
-                                <p class="bro__subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio
-                                    et faucibus.</p>
-                            </div>
-                <div class="bro__wrapper">
-<ul>
-    <li class="left__block"></li>
-</ul>
-<ul>
-    <li class="right__block">
-    </li>
-    <ul>
-        <li>
-            <img class="bro__img" src="./icon/IMAGE (8).svg" alt="#" class="img__bro">
-            <h3 class="bro__title3">Expert interior design</h3>
-            <p class="bro__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
-        </li>
-    </ul>
-    <ul>
-
-        <img class="bro__img" src="./icon/IMAGE (7).svg" alt="#" class="img__bro">
-        <h3 class="bro__title3">High quality builds</h3>
-        <p class="bro__text">Lorem ipsum dolor sit amet,<br>
-            consectetur adipiscing elit.</p>
-    </ul>
-    <ul>
-        <img class="bro__img" src="./icon/IMAGE (6).svg" alt="#" class="img__bro">
-        <h3 class="bro__title3">Expert interior design</h3>
-        <p class="bro__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
-    </ul>
-    </li>
-</ul>
-                </div>
-            </div>
-        </section>
-        <section class="one">
-        </section>
-
-        <section class="section">
-            <div class="container">
-                        <p class="section__suptitle">Current listings</p>
-                        <h2 class="section__title">What we have in store for you.</h2>
-                        <p class="section__text-itam">
-                            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet
-                            urna
-                            turpis. Mauris euismod elit
-                            et nisi ultrices, ut faucibus orci tincidunt.
-                        </p>
-                    
-                
-                <ul class="section__content-list">
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (4).jpg" alt="#" class="section__content-img">
-                        <h2 class="section__content-title3">House</h2>
-                        <h3 class="section__content-title2">California St.</h3>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class="section__content-text">8</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class="section__content-text">2</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class="section__content-text">10</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (5).jpg" alt="#" class="section__content-img">
-                        <h3 class="section__content-title3">Villa</h3>
-                        <h2 class="section__content-title2">Welford Gardens</h2>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class=".section__content-text">12</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class=".section__content-text">3</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class=".section__content-text">16</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (6).jpg" alt="#" class="section__content-img">
-                        <h3 class="section__content-title3">House</h3>
-                        <h2 class="section__content-title2">The Grove</h2>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class=".section__content-text">12</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class=".section__content-text">2</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class=".section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class=".section__content-text">14</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-
-                
-                
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (7).jpg" alt="#" class="section__content-img">
-                        <h3 class="section__content-title3">Apartment</h3>
-                        <h2 class="section__content-title2">Wallace St.</h2>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class="section__content-text">8</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class="section__content-text">2</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class="section__content-text">10</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (8).jpg" alt="#" class="section__content-img">
-                        <h3 class="section__content-title3">Apartment</h3>
-                        <h2 class="section__content-title2">Dwight Way</h2>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class="section__content-text">7</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class="section__content-text">1</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class="section__content-text">8</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="section__content-item">
-                        <img src="./img/IMAGE (9).jpg" alt="#" class="section__content-img">
-                        <h3 class="section__content-title3">House</h3>
-                        <h2 class="section__content-title2">North Avenue</h2>
-                        <ul class="section__content-list2">
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (10).svg" alt="#">
-                                <p class="section__content-text">8</p>
-                                <p class="section__content-text">rooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (11).svg" alt="#">
-                                <p class="section__content-text">1</p>
-                                <p class="section__content-text">bathrooms</p>
-                            </li>
-                            <li class="itam2">
-                                <img class="section__content-img2" src="./icon/IMAGE (12).svg" alt="#">
-                                <p class="section__content-text">6</p>
-                                <p class="section__content-text">beds</p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                
-            </div>
-        </section>
-        <section class="team">
-            <div class="container">
-<div class="team__wrapper">
-        <div class="team__inner">
-        <p class="section__suptitle">Our people</p>
-        <h2 class="section__title">Meet our team of dedicated and talented agents.</h2>
-        <p class="section__text-itam">
-            Meet our team of dedicated and talented agents.
-    </p>
-            
+      <section class="hero">
+        <div class="hero__bg">
+          <div class="hero__wrapper">
+            <img src="./img/logo2.svg" alt="icon" />
+            <h1 class="hero__title">
+              We're here to help you find <br />
+              a new home.
+            </h1>
+          </div>
+          <a class="hero__icon" href="">
+            <img
+              width="30px"
+              height="30px"
+              src="./img/strelka.svg"
+              alt="arow"
+            />
+          </a>
         </div>
-        <ul class="team__list">
-            <li class="team__item">
-                <img src="./img/team1.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">Ava Orn</h3>
-                            <p class="team__text">Managing Broker</p>
-                </div>
-            </li>
-            <li class="team__item">
-                <img src="./img/team2.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">Ella Hessel</h3>
-                            <p class="team__text">Agent</p>
-                </div>
-            </li>
-            <li class="team__item">
-                <img src="./img/team3.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">Daryl Gislason</h3>
-                            <p class="team__text">REALTOR</p>
-                </div>
-            </li>
-            <li class="team__item">
-                <img src="./img/team4.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">David Sporer</h3>
-                            <p class="team__text">Agent</p>
-                </div>
-            </li>
-            <li class="team__item">
-                <img src="./img/team5.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">Trevor Torphy</h3>
-                            <p class="team__text">Agent</p>
-                </div>
-            </li>
-            <li class="team__item">
-                <img src="./img/team6.jpg" alt="" class="team__img">
-                <div class="">
-                            <h3 class="team__title">Amanda Giovanni</h3>
-                            <p class="team__text">REALTOR</p>
-                </div>
-            </li>
-        </ul>
-</div>
-            </div>
-        </section>
-        <section class="Newsroom">
-<div class="container">
-    <div class="Newsroom__inner">
-        <h3 class="bro__suptitle">Newsroom</h3>
-        <h2 class="bro__title">Writing from Estate.</h2>
-    </div>
-    <ul class="Newsroom__list">
-        <li class="Newsroom__item">
-            <img class="Newsroom__img" src="./img/Newsroom1.jpg" alt="">
-            <p class="Newsroom__text">Press release</p>
-            <h2 class="Newsroom__title">Market watch: are condos still a good investment?</h2>
-            <p class="Newsroom__text2">August 12, 2021</p>
-        </li>
-        <li class="Newsroom__item">
-            <img class="Newsroom__img" src="./img/Newsroom2.jpg" alt="">
-            <p class="Newsroom__text">Announcement</p>
-            <h2 class="Newsroom__title">The history of great design</h2>
-            <p class="Newsroom__text2">August 12, 2021</p>
-        </li>
-        <li class="Newsroom__item">
-            <img class="Newsroom__img" src="./img/Newsroom.jpg" alt="">
-            <p class="Newsroom__text">Company news</p>
-            <h2 class="Newsroom__title">Designers who changed everything</h2>
-            <p class="Newsroom__text2">August 12, 2021</p>
-        </li>
-    </ul>
-</div>
-        </section>
-        <section class="coment">
-            <div class="container">
-                <div class="coment__wrapper">
-                    <h3 class="bro__suptitle">Testimonials</h3>
-                    <h2 class="bro__title">What our customers say.</h2>
-                </div>
-                <div class="coment__inner">
-                <ul class="coment__list">
-<li class="coment__itam">
-    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-        <g clip-path="url(#clip0_4_393)">
-            <path
-                d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-                fill="#52503B" />
-        </g>
-        <defs>
-            <clipPath id="clip0_4_393">
-                <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-            </clipPath>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-  <g clip-path="url(#clip0_4_393)">
-    <path d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z" fill="#52503B"/>
-  </g>
-  <defs>
-    <clipPath id="clip0_4_393">
-      <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)"/>
-    </clipPath>
-  </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-    <g clip-path="url(#clip0_4_393)">
-        <path
-            d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-            fill="#52503B" />
-    </g>
-    <defs>
-        <clipPath id="clip0_4_393">
-            <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-        </clipPath>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-    <g clip-path="url(#clip0_4_393)">
-        <path
-            d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-            fill="#52503B" />
-    </g>
-    <defs>
-        <clipPath id="clip0_4_393">
-            <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-        </clipPath>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-  <g clip-path="url(#clip0_4_393)">
-    <path d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z" fill="#52503B"/>
-  </g>
-  <defs>
-    <clipPath id="clip0_4_393">
-      <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)"/>
-    </clipPath>
-  </defs>
-</svg>
-</li>
-<h2 class="coment__title">We're so happy with Estate.</h2>
-<p class="coment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis
-cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et
-justo cursus id rutrum lorem imperdiet.</p>
-<p class="coment__text2">Laura Paulie</p>
-                </ul>
-                <ul class="coment__list">
-                    <li class="coment__itam">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                            <g clip-path="url(#clip0_4_393)">
-                                <path
-                                    d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-                                    fill="#52503B" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4_393">
-                                    <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-                                </clipPath>
-                            </defs>
-                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                            <g clip-path="url(#clip0_4_393)">
-                                <path
-                                    d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-                                    fill="#52503B" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4_393">
-                                    <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                            <g clip-path="url(#clip0_4_393)">
-                                <path
-                                    d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-                                    fill="#52503B" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4_393">
-                                    <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                            <g clip-path="url(#clip0_4_393)">
-                                <path
-                                    d="M17.8034 6.48942L12.3277 5.62002L9.84699 0.279449C9.66548 -0.0931496 9.18144 -0.0931496 8.99993 0.279449L6.51924 5.65107L1.07381 6.48942C0.680533 6.55152 0.529272 7.07937 0.831795 7.35882L4.79485 11.5505L3.85703 17.419C3.79652 17.8226 4.1898 18.1642 4.55283 17.9158L9.48396 15.1523L14.3848 17.9158C14.7176 18.1021 15.1412 17.7916 15.0504 17.419L14.1126 11.5505L18.0756 7.35882C18.3176 7.07937 18.1966 6.55152 17.8034 6.48942Z"
-                                    fill="#52503B" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4_393">
-                                    <rect width="17.5377" height="18" fill="white" transform="translate(0.662674)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <g clip-path="url(#clip0_4_411)">
-                                <path
-                                    d="M17.6206 6.78C17.5036 6.42 17.2113 6.15 16.8606 6.09L11.9793 5.31L9.78706 0.57C9.61168 0.21 9.29016 0 8.91018 0C8.53019 0 8.20867 0.21 8.06252 0.57L5.87031 5.34L0.959764 6.15C0.60901 6.21 0.316716 6.48 0.199798 6.84C0.0828801 7.2 0.170568 7.62 0.433634 7.89L3.9704 11.61L3.15197 16.8C3.09351 17.19 3.23966 17.58 3.56119 17.82C3.73656 17.94 3.91194 18 4.08732 18C4.23346 18 4.40884 17.97 4.52576 17.88L8.91018 15.42L13.2654 17.85C13.5869 18.03 13.9669 18 14.2592 17.79C14.5807 17.55 14.7268 17.16 14.6684 16.77L13.85 11.55L17.3867 7.83C17.6498 7.56 17.7375 7.14 17.6206 6.78ZM16.9483 7.41L13.4407 11.13C13.3238 11.25 13.2654 11.46 13.2946 11.64L14.113 16.86C14.1422 17.07 14.0546 17.22 13.9376 17.28C13.8792 17.31 13.733 17.4 13.5577 17.31L9.17324 14.88C8.99786 14.79 8.82249 14.79 8.64711 14.88L4.26269 17.34C4.08732 17.43 3.94117 17.37 3.88271 17.31C3.79502 17.25 3.6781 17.07 3.70733 16.89L4.55499 11.7C4.58422 11.52 4.52576 11.31 4.40884 11.19L0.872075 7.47C0.725928 7.32 0.725928 7.14 0.755158 7.02C0.813616 6.87 0.901305 6.78 1.04745 6.75L5.958 5.94C6.13338 5.91 6.30875 5.79 6.36721 5.61L8.55942 0.84C8.64711 0.69 8.76403 0.6 8.91018 0.6C9.05632 0.6 9.17324 0.69 9.2317 0.84L11.4239 5.61C11.5116 5.79 11.6577 5.91 11.8331 5.94L16.7144 6.72C16.8606 6.75 16.9775 6.84 17.0067 6.99C17.0944 7.08 17.0944 7.29 16.9483 7.41Z"
-                                    fill="#52503B" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4_411">
-                                    <rect width="17.5377" height="18" fill="white" transform="translate(0.148987)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </li>
-                    <h2 class="coment__title">We found the perfect home!</h2>
-                    <p class="coment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                        elementum tristique. Duis
-                        cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
-                        et
-                        justo cursus id rutrum lorem imperdiet.</p>
-                    <p class="coment__text2">Note Davidsson</p>
-                    </ul>
-                </ul>
-                </div>
-            </div>
-        </section>
-        <section class="none">
-            <div class="container">
-                    <div class="none__wrapper">
-                        <h3 class="bro__suptitle">Seen enough?</h3>
-                        <h2 class="none__title"> Get in touch with us today.</h2>
-                    </div>
-<div class="none__inner">
-<p class="none__text">Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit
-et nisi ultrices, ut faucibus orci tincidunt.</p>
-</div>
-<div class="btn__blok">
-<button class="none__btn">See listings</button>
-<button class="none__btn">Contact</button>
-</div>
-            </div>
-        </section>
-    </main>
-    
-<footer class="footer">
-    <div class="container">
-        <img class="footer__logo" src="./img/logo_footer.svg" alt="logo" />
+      </section>
 
-        <ul class="footer__list">
-            <li class="footer__item">
-                <h2 class="text-orange">Pages</h2>
+      <section class="listings">
+        <div class="container">
+          <div class="listings__wrapper">
+            <h2 class="title-orange">Our requirements</h2>
+            <h3 class="listings__title title">How we choose our listings.</h3>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+              Nullam scelerisque aliquam odio et faucibus.
+            </p>
+          </div>
+          <div class="listings__box">
+            <img src="./img/home-rassvet.png" alt="img" />
+            <ul class="listings__list">
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img src="./img/logo11.svg" alt="o" />
+                </div>
+                <h3 class="listings__subtitle">Stellar locations</h3>
+                <p class="listings__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img src="./img/listings_2.svg" alt="icon" />
+                </div>
+                <h3 class="listings__subtitle">High quality builds</h3>
+                <p class="listings__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="listings__item">
+                <div class="listings__bg-gray">
+                  <img src="./img/logo3.svg" alt="icon" />
+                </div>
+                <h3 class="listings__subtitle">Expert interior design</h3>
+                <p class="listings__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-                <a href="#start" class="footer__link">Start</a>
-                <a href="#" class="footer__link">Listings</a>
-                <a href="#" class="footer__link">Listings alt. 2</a>
-                <a href="#" class="footer__link">Contact</a>
-                <a href="#" class="footer__link">Legal</a>
+      <section class="bgaha"></section>
+
+      <section class="store">
+        <div class="container">
+          <div class="store__wrapper">
+            <h2 class="title-orange">Current listings</h2>
+            <h3 class="listings__title title">
+              What we have in store for you.
+            </h3>
+            <p class="subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut <br />
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              <br />
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+
+          <ul class="store__list">
+            <li class="store__item">
+              <div class="store__inner">
+                <img class="store__room1" src="./img/room1.png" alt="img" />
+              </div>
+              <p class="store__text">House</p>
+              <p class="store__subtitle">California St.</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">16</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">2</span>
+                    bathrooms
+                  </p>
+                </li>
+
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">11</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
             </li>
-            <li class="footer__item">
-                <h2 class="text-orange">Company</h2>
+            <li class="store__item">
+              <div class="store__inner">
+                <img
+                  class="store__room1"
+                  src="./img/white-home2.png"
+                  alt="img"
+                />
+              </div>
+              <p class="store__text">villa</p>
+              <p class="store__subtitle">Welford Gardens</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">12</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">3</span>
+                    bathrooms
+                  </p>
+                </li>
 
-                <a href="#" class="footer__link">About</a>
-                <a href="#" class="footer__link">Our team</a>
-                <a href="#" class="footer__link">Newsroom</a>
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">16</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
             </li>
-            <li class="footer__item">
-                <h2 class="text-orange">Utility</h2>
+            <li class="store__item">
+              <div class="store__inner">
+                <img
+                  class="store__room1"
+                  src="./img/white-home3.png"
+                  alt="img"
+                />
+              </div>
+              <p class="store__text">house</p>
+              <p class="store__subtitle">The Grove</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">12</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">2</span>
+                    bathrooms
+                  </p>
+                </li>
 
-                <a href="#" class="footer__link">About</a>
-                <a href="#" class="footer__link">Our team</a>
-                <a href="#" class="footer__link">Newsroom</a>
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">14</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
             </li>
-            <li class="footer__item">
-                <h2 class="text-orange">Newsletter</h2>
+            <li class="store__item">
+              <div class="store__inner">
+                <img class="store__room1" src="./img/room2.png" alt="img" />
+              </div>
+              <p class="store__text">apartment</p>
+              <p class="store__subtitle">Wallace St.</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">10</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">2</span>
+                    bathrooms
+                  </p>
+                </li>
 
-                <p class="footer__link footer__link2">
-                    Subscribe to our (infrequent) newsletter where we share news about
-                    upcoming listings and projects.
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">8</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <div class="store__inner">
+                <img class="store__room1" src="./img/room3.png" alt="img" />
+              </div>
+              <p class="store__text">apartmeny</p>
+              <p class="store__subtitle">Dwight Way</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">8</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">1</span>
+                    bathrooms
+                  </p>
+                </li>
+
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">6</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <div class="store__inner">
+                <img
+                  class="store__room1"
+                  src="./img/white-home4.png"
+                  alt="img"
+                />
+              </div>
+              <p class="store__text">House</p>
+              <p class="store__subtitle">North Avenue</p>
+              <ul class="store__list2">
+                <li class="store__item2">
+                  <img src="./img/bed.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">14</span>
+                    beads
+                  </p>
+                </li>
+                <li class="store__item2">
+                  <img src="./img/bathroom.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">3</span>
+                    bathrooms
+                  </p>
+                </li>
+
+                <li class="store__item2">
+                  <img src="./img/door.svg" alt="img" />
+                  <p class="store__icon">
+                    <span class="store__16">11</span>
+                    bathrooms
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="show-btn">
+            North Avenue
+            <img src="./img/arowrh.svg" alt="img" />
+          </button>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container team__wrapper">
+          <div class="team__inner">
+            <h2 class="title-orange">Our people</h2>
+            <h3 class="title">
+              Meet our team of <br />
+              dedicated and <br />
+              talented agents.
+            </h3>
+            <p class="subtitle team__subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+            <button class="show-btn team__btn">
+              View our team
+              <img src="./img/arowrh.svg" alt="img" />
+            </button>
+          </div>
+          <ul class="team__list">
+            <li class="team__item">
+              <img
+                width="80px"
+                height="80px"
+                src="./img/telka1.png"
+                alt="img"
+              />
+
+              <div>
+                <p class="team__text2">Ava Orn</p>
+                <p class="team__text">Managing Broker</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img
+                width="80px"
+                height="80px"
+                src="./img/telka2.png"
+                alt="img"
+              />
+
+              <div>
+                <p class="team__text2">Ella Hesse</p>
+                <p class="team__text">agent</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img width="80px" height="80px" src="./img/daryl.png" alt="img" />
+
+              <div>
+                <p class="team__text2">Daryl Gislason</p>
+                <p class="team__text">realtor</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img width="80px" height="80px" src="./img/nigga.png" alt="img" />
+
+              <div>
+                <p class="team__text2">David Sporer</p>
+                <p class="team__text">agent</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img
+                width="80px"
+                height="80px"
+                src="./img/trevor.png"
+                alt="img"
+              />
+
+              <div>
+                <p class="team__text2">Trevor Torphy</p>
+                <p class="team__text">agent</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img
+                width="80px"
+                height="80px"
+                src="./img/telka3.png"
+                alt="img"
+              />
+
+              <div>
+                <p class="team__text2">Amanda Giovanni</p>
+                <p class="team__text">realtor</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="newsroom">
+        <div class="container">
+          <div class="newsroom__wrapper">
+            <h2 class="title-orange">Newsroom</h2>
+            <h3 class="title">Writing from Estate.</h3>
+          </div>
+
+          <ul class="newsroom__list">
+            <li class="newsroom__item">
+              <img src="./img/korxata.png" alt="img" />
+              <div class="newsroom__inner">
+                <p class="newsroom__orange2">Press release</p>
+                <p class="newsroom__title title3">
+                  Market watch: are condos still a good investment?
+                </p>
+                <p class="newsroom__text">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/whxata.png" alt="img" />
+              <div class="newsroom__inner">
+                <p class="newsroom__orange2">Announcement</p>
+                <p class="newsroom__title title3">
+                  The history of great design
+                </p>
+                <p class="newsroom__text">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="newsroom__item">
+              <img src="./img/tepxata.png" alt="img" />
+              <div class="newsroom__inner">
+                <p class="newsroom__orange2">Company news</p>
+                <p class="newsroom__title title3">
+                  Designers who changed everything
+                </p>
+                <p class="newsroom__text">August 12, 2021</p>
+              </div>
+            </li>
+          </ul>
+          <button class="show-btn">
+            Newsroom
+            <img src="./img/arowrh.svg" alt="img" />
+          </button>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="container">
+          <div class="comments__wrapper">
+            <h2 class="title-orange">Testimonials</h2>
+            <h3 class="title">What our customers say.</h3>
+          </div>
+          <ul class="comments__list">
+            <li class="comments__item">
+              <img src="./img/5star.svg" alt="img" />
+              <div class="comments__inner">
+                <p class="comments__text">We found the perfect home!</p>
+                <p class="comments__text2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                  cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                  tristique posuere.
                 </p>
 
-                <form class="footer__form" action="https://formspree.io/f/mdorpoer" method="POST">
-                    <label>Fill this form</label>
-                    <input class="footer__email" type="text" name="message" placeholder="Name" required />
-                    <input class="footer__email" type="email" name="email" placeholder="Email" required />
-                    <label>
-                        <a href="./condition.html">Условия договра</a>
-                        <input class="footer__checkbox" type="checkbox" required />
-                    </label>
-                    <button class="footer__btn">Submit</button>
-                </form>
+                <p class="comments__text3">
+                  <span class="comments__line"></span>
+                  Nate Davidsson
+                </p>
+              </div>
             </li>
-        </ul>
+            <li class="comments__item">
+              <img src="./img/4star.svg" alt="img" />
+              <div class="comments__inner">
+                <p class="comments__text">We're so happy with Estate.</p>
+                <p class="comments__text2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                  cursus id rutrum lorem imperdiet.
+                </p>
 
-        <div class="footer__wrapper">
-            <p class="footer__text">
-                © Estate, LLC. All rights reserved. Powered by Webflow
-            </p>
-
-            <ul class="footer__socials">
-                <li class="footer__links">
-                    <a href="#" class="footer__links"><img src="./img/linkedin.svg" alt="linkedin" /></a>
-                </li>
-                <li class="footer__links">
-                    <a href="#" class="footer__links"><img src="./img/facebook.svg" alt="facebook" /></a>
-                </li>
-                <li class="footer__links">
-                    <a href="#" class="footer__links"><img src="./img/instagram.svg" alt="instagram" /></a>
-                </li>
-                <li class="footer__links">
-                    <a href="#" class="footer__links"><img src="./img/twitter.svg" alt="twitter" /></a>
-                </li>
-            </ul>
+                <p class="comments__text3">
+                  <span class="comments__line"></span> Laura Paulie
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
-</footer>
-</body>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__wrapper">
+            <h2 class="title-orange">Seen enough?</h2>
+            <h3 class="title contacts__title">Get in touch with us today.</h3>
+            <p class="contacts__text">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
+          <div class="contacts__btns">
+            <button class="contacts__bot">Contacts</button>
+            <button class="contacts__bot">See listings</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <img class="footer__logo" src="./img/whestate.png" alt="img" />
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <h2 class="footer__title">pages</h2>
+            <a href="#">Start</a>
+            <a href="#">Listings</a>
+            <a href="#">Listings alt. 2</a>
+            <a href="#">Contact</a>
+            <a href="#">Legal</a>
+          </li>
+          <li class="footer__item">
+            <h2 class="footer__title">company</h2>
+            <a href="#">About</a>
+            <a href="#">Our team</a>
+            <a href="#">Newsroom</a>
+          </li>
+          <li class="footer__item">
+            <h2 class="footer__title">utility</h2>
+            <a href="#">instructions</a>
+            <a href="#">style guide</a>
+            <a href="#">licenses</a>
+            <a href="#">changelog</a>
+            <a href="#">404</a>
+          </li>
+          <li class="footer__item footer-1">
+            <h2 class="footer__title">newsletter</h2>
+            <p class="footer__text">
+              Subscribe to our (infrequent) newsletter where we share news about
+              upcoming listings and projects.
+            </p>
+            <label class="footer__label">
+              <input type="email" placeholder="Email" />
+              <button class="footer__but">Submit</button>
+            </label>
+          </li>
+        </ul>
+        <div class="footer__box">
+          <p>© Estate, LLC. All rights reserved. Powered by Weblof.</p>
+
+          <ul>
+            <li>
+              <a href="">
+                <img src="./img/in.svg" alt="img" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/facebook.svg" alt="img" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/intsa.svg" alt="img" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./img/twitter.svg" alt="img" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
